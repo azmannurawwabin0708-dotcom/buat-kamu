@@ -96,13 +96,7 @@ const secretMessage = document.getElementById("secretMessage");
 
 secretBtn.addEventListener("click", function () {
   secretMessage.style.display = "block";
-});
-
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    document.getElementById("introScreen").style.display = "none";
-  }, 2000);
-});
+});
 
 const faders = document.querySelectorAll(".fade-in");
 
