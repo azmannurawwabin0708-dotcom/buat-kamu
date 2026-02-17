@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Ulang Tahun Sayangku! 💕</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="introScreen">
+      <h1>Untuk Kamu 💖</h1>
+      <p>Tunggu sebentar ya...</p>
+    </div>
+
+    <div class="container">
+      <header>
+        <h1>Selamat Ulang Tahun, Cintaku! 🎂💖</h1>
+        <p>
+          Kepada pasangan terbaikku, terima kasih atas semua kenangan indah
+          kita.
+        </p>
+      </header>
+
+      <section class="countdown" id="countdown">
+        <h2>Hari Spesial Kita</h2>
+        <div class="countdown-display">
+          <span id="days">--</span> Hari <span id="hours">--</span> Jam
+          <span id="minutes">--</span> Menit <span id="seconds">--</span> Detik
+        </div>
+      </section>
+
+      <section class="message">
+        <h2>Pesan Cinta</h2>
+        <div class="love-note">
+          <p>
+            Selamat ulang tahun, sayangku. 🎉 Di hari yang istimewa ini, aku
+            ingin kamu tahu betapa berharganya kamu dalam hidupku. Terima kasih
+            sudah hadir dan membawa warna di setiap hariku, menjadi tempat
+            ternyaman untuk pulang, dan menjadi alasan aku belajar tentang
+            sabar, tulus, dan setia. Semoga bertambahnya usiamu membawa semakin
+            banyak kebahagiaan, kesehatan yang selalu menyertai langkahmu,
+            rezeki yang dilapangkan, serta semua impian yang selama ini kamu
+            perjuangkan satu per satu bisa terwujud dengan indah. Aku berharap
+            kamu selalu dikelilingi orang-orang baik, dijauhkan dari hal-hal
+            yang menyakitkan, dan diberikan kekuatan saat menghadapi setiap
+            tantangan. Terima kasih karena sudah menjadi dirimu yang apa adanya,
+            yang selalu berusaha dan tidak pernah menyerah. Semoga di tahun ini
+            kita bisa tumbuh bersama, saling menguatkan, dan menciptakan lebih
+            banyak kenangan manis yang akan kita ceritakan nanti dengan
+            senyuman. Aku bangga memilikimu, dan aku akan selalu mendoakan yang
+            terbaik untukmu, hari ini, esok, dan seterusnya. 💖
+          </p>
+          <button id="openGallery">Lihat Foto Kita 📸🎥</button>
+        </div>
+      </section>
+
+      <!-- Kontrol Musik -->
+      <div class="music-control">
+        <button id="toggleMusic">
+          <span id="musicIcon">🎵</span> Putar Musik Latar
+        </button>
+      </div>
+
+      <section class="gallery hidden" id="gallery">
+        <h2>Foto Kita 💕</h2>
+        <div class="gallery-grid">
+          <!-- 10 FOTO -->
+          <div class="gallery-item">
+            <img src="foto1.jpeg" alt="Kenangan 1" />
+            <div class="caption">
+              Hari itu biasa saja. Yang bikin beda cuma kamu.
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto2.jpeg" alt="Kenangan 2" />
+            <div class="caption">
+              Dari sini aku mulai sadar, hidup bisa terasa ringan kalau sama
+              kamu.
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto3.jpeg" alt="Kenangan 3" />
+            <div class="caption">
+              Hal kecil bareng kamu selalu terasa lebih besar dari yang
+              seharusnya.
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto4.jpeg" alt="Kenangan 4" />
+            <div class="caption">
+              Foto ini kecil, tapi kenangannya gede banget.
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto5.jpeg" alt="Kenangan 5" />
+            <div class="caption">
+              Banyak foto bagus di dunia, tapi yang ada kamu selalu jadi
+              favorit.
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto6.jpeg" alt="Kenangan 6" />
+            <div class="caption">
+              “Kita mungkin cuma duduk bareng, tapi rasanya kayak dunia berhenti
+              sebentar.
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto7.jpeg" alt="Kenangan 7" />
+            <div class="caption">
+              Tertawa bareng kamu selalu jadi versi terbaik dari bahagia
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto8.jpeg" alt="Kenangan 8" />
+            <div class="caption">
+              Di foto ini aku belajar, bahagia ternyata sesederhana kamu senyum.
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto9.jpeg" alt="Kenangan 9" />
+            <div class="caption">
+              Dan sejauh ini, keputusan terbaikku adalah tetap ada di sini. Sama
+              kamu.
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="foto10.jpeg" alt="Kenangan 10" />
+            <div class="caption">
+              Dan dari semua foto yang ada, aku tetap milih kamu. Setiap hari.
+            </div>
+          </div>
+
+          <!-- 1 VIDEO (highlight tengah) -->
+          <div class="gallery-item video-highlight">
+            <video controls poster="Thumbnail.png">
+              <source src="vidiokita.mp4" type="video/mp4" />
+              Browser Anda tidak mendukung video.
+            </video>
+            <div class="caption">
+              Dan kalau waktu boleh diulang, aku tetap mau momen ini… sama kamu.
+            </div>
+          </div>
+        </div>
+
+        <section class="last-section">
+          <h2>Satu Hal Lagi…</h2>
+          <p>
+            Kalau suatu hari nanti kita capek, ingetin aku ke momen-momen kayak
+            gini. Karena aku nggak mau berhenti berusaha buat kamu.
+          </p>
+
+          <button id="secretBtn">Klik kalau kamu lagi senyum 😊</button>
+          <p id="secretMessage" class="hidden-message">
+            Nah kan… aku tau kamu senyum. 💖
+          </p>
+        </section>
+        <section class="final-touch fade-in">
+          <h2>Terima kasih sudah lahir.</h2>
+          <p>Dan terima kasih sudah memilih untuk tetap ada di hidupku.</p>
+        </section>
+
+        <button id="closeGallery">Tutup Galeri 💕</button>
+      </section>
+
+      <div class="confetti" id="confetti"></div>
+    </div>
+
+    <audio id="bgMusic" loop>
+      <source src="surat_hati.mpeg" type="audio/mpeg" />
+    </audio>
+
+    <!-- PASSWORD MODAL -->
+    <div id="passwordModal" class="modal">
+      <div class="modal-content">
+        <h2>Masukkin Password dulu bub</h2>
+        <input type="password" id="passwordInput" placeholder="Password..." />
+        <button id="submitPassword">Buka</button>
+        <p id="errorMessage" class="error-text"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  <p style="font-size:12px; color:#ffffff; margin-top:40px;">
+  dibuat dengan serius oleh seseorang yang beruntung memilikimu.
+  </p>
+</html>
